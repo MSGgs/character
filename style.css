@@ -1,0 +1,38 @@
+body {
+    background-color:black;
+}
+.high {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    color: whitesmoke;
+}
+.card {
+    display: inline-block;
+    padding: 20px;
+    margin: 60px;
+    background-color: gray;
+    color: black;
+    border-radius: 7px;
+}
+.text {
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butn {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: rgb(43, 43, 43);
+    border: 2px;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    color: grey;
+}
+.btn:hover {
+    background-color: rgb(71, 71, 71);
+}
